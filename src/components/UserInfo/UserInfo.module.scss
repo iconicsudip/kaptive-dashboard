@@ -1,0 +1,32 @@
+.user_info{
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    .logo{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        color: black;
+        background-color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        .name{
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1;
+        }
+        .type{
+            font-size: 0.8rem;
+            line-height: 1;
+        }
+    }
+}

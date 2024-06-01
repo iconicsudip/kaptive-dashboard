@@ -1,0 +1,23 @@
+.home_wrapper{
+        margin-left: var(--sidebar-width)!important;
+            padding: 0 12px!important;
+            width: calc(100% - var(--sidebar-width))!important;
+            .heading{
+                margin: 12px 0;
+                    margin-bottom: 28px;
+                    display: flex;
+                    flex-direction: column;
+                    .desc{
+                        font-size: 0.9rem;
+                            color: var(--text-color);
+                    }
+            }
+}
+
+@media print{
+    .home_wrapper{
+        margin-left: 0!important;
+        padding: 0!important;
+        width: 100%!important;
+    }
+}
