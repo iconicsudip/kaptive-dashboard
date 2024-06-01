@@ -1,4 +1,4 @@
-import { FormControl, FormControlLabel, FormLabel, InputLabel, MenuItem, Radio, RadioGroup, Select, Stack, Typography} from "@mui/material";
+import { FormControl, InputLabel, MenuItem, Select} from "@mui/material";
 import styles from './Filters.module.scss'
 import { CurrencyEnum } from "../../enums/currency.enum";
 

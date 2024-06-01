@@ -74,6 +74,8 @@ export default function DataTable({ currency, decimal, data, rowsPerPage }: Prop
         setFormattedData(data);
 
     }, [data]);
+
+    console.log(currency)
     return (
         <TableContainer className={styles.table}
             style={{ height: `${containerHeight}px`, overflowY: "scroll" }}
